@@ -1,3 +1,10 @@
+# About the application
+This application was made using React
+#Level 1:
+This level wants to be a clone of the wordle game, i have created an in memory database containing 50 wordle words and i will be able to select at random one of them for the game. 
+-I used json-server to wrap my db.json with api endpoints ( json-server db.json --port 3001 )
+-I created a folder: hooks which will help with the game logic 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,60 @@
+.level-cards{
+    align-items: center;
+    border: 3px solid #cfcfcf;
+    border-radius: 15px;
+    color: #cfcfcf;
+    height: 120px;
+    margin: 0 15px 30px;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease;
+    width: 120px;
+}
+.level-cards:hover{
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 1.3rem #cccccc; 
+}
+.cards-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+.level-cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    unicode-bidi: isolated;
+}
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    position: relative;
+    top:30px;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    z-index: 10;
+    bottom: 30px;
+}
+.app{
+    background-color: #212121;
+    color: #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    font-family: Fira Code, monospace;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: center;
+}
