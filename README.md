@@ -5,6 +5,7 @@ This level wants to be a clone of the wordle game, i have created an in memory d
 -I used json-server to wrap my db.json with api endpoints ( json-server db.json --port 3001 )
 -I created a folder: hooks which will help with the game logic 
 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
-
+### ' json-server --port 3001 db.json ' on cd app/src/components/lvl1
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
