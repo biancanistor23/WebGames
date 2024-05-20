@@ -58,3 +58,7 @@
     min-height: 100vh;
     text-align: center;
 }
+.header{
+    color: #cccccc;
+    font-size: 42px;
+}
